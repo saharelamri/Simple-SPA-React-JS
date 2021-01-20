@@ -1,0 +1,87 @@
+body {
+    background-color: #FFCC00;
+    padding: 20px;
+    margin: 0;
+    }
+    h1, h2, p, ul, li {
+    font-family: sans-serif;
+    }
+    ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    }
+    ul.header {
+    background-color: #111;
+    padding: 0;
+    }
+    ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    }
+    .content {
+    background-color: #FFF;
+    padding: 20px;
+    }
+    .content h2 {
+    padding: 0;
+    margin: 0;
+    }
+    
+    .content li {
+    margin-bottom: 10px;
+    }
+    .active {
+        background-color: #0099FF;
+        }
+      /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
